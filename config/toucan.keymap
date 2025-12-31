@@ -78,10 +78,10 @@
         SYMBOL {
             display-name = "SYMBOL";
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET   &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&trans     &trans           &trans       &trans    &trans      &trans       &trans      &trans         &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt LEFT_CONTROL BACKSLASH
-&trans     &trans           &trans       &trans    &trans      &trans       &trans      &trans         &kp LESS_THAN  &kp GREATER_THAN      &trans                 &trans
-                                         &trans    &trans      &trans       &kp DELETE  &trans         &trans
+&kp GRAVE    &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET   &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&trans       &trans           &trans       &trans    &trans      &trans       &trans      &trans         &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt LEFT_CONTROL BACKSLASH
+&bootloader  &sys_reset       &trans       &trans    &trans      &trans       &trans      &trans         &kp LESS_THAN  &kp GREATER_THAN      &trans                 &trans
+                                           &trans    &trans      &trans       &kp DELETE  &trans         &trans
             >;
         };
 
